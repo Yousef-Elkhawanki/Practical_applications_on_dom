@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 1rem;
+}
+.heading {
+  background-color: #e06469;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+img {
+  border: 0.1rem solid #000;
+  padding: 0.5rem;
+}
+
+.image__container {
+  width: 450px;
+}
+
+.image__container img {
+  width: 100%;
+}
+
+.image__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.image__list img {
+  width: 10rem;
+  cursor: pointer;
+}
