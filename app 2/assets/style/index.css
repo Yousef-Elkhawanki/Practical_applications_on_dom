@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.hero__banner {
+  background: url(../images/1.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.overlay {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 4rem;
+}
+.hero__banner i {
+  margin: 1rem;
+  cursor: pointer;
+}
+.hero__banner i:nth-child(1) {
+  position: absolute;
+  left: 0;
+}
+.hero__banner i:nth-child(3) {
+  position: absolute;
+  right: 0;
+}
