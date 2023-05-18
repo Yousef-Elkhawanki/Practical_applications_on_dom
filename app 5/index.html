@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUDS System </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/style/index.css">
+</head>
+
+<body class="bg-dark">
+    <!-- start inputs  -->
+    <section>
+        <div class="container py-2">
+            <h1 class="bg-danger p-2 rounded">CRUDS Operating System ..!</h1>
+            <div class="crud__form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="text-uppercase" for="productNameInput">Product Name:</label>
+                        <input type="text" id="productNameInput" class="form-control bg-transparent text-danger mb-2">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="text-uppercase" for="productCategoryInput">Product Category:</label>
+                        <input type="text" id="productCategoryInput"
+                            class="form-control bg-transparent text-danger mb-2">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="text-uppercase" for="productPriceInput">Product Price:</label>
+                        <input type="number" id="productPriceInput"
+                            class="form-control bg-transparent text-danger mb-2">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="text-uppercase" for="productDiscountInput">Product Discount:</label>
+                        <input type="number" id="productDiscountInput"
+                            class="form-control bg-transparent text-danger mb-2">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="text-uppercase" for="productQuantityInput">Product Quantity:</label>
+                        <input type="number" id="productQuantityInput"
+                            class="form-control bg-transparent text-danger mb-2">
+                    </div>
+                    <div class="col-md-12">
+                        <label class="text-uppercase" for="productDescriptionInput">Product Description:</label>
+                        <textarea id="productDescriptionInput" cols="30" rows="10"
+                            class="form-control bg-transparent text-danger mb-2"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <button id="addProductBtn" class="btn btn-outline-success">Add Product</button>
+                        <button id="updateProductBtn" class="btn btn-outline-info d-none">update Product</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- start Table  -->
+    <section>
+        <div class="container py-2">
+            <input type="search" name="" id="searchInput" class="form-control bg-transparent my-2 text-white "
+                placeholder="Search....!">
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th>Name </th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Disconut</th>
+                        <th>Quantity</th>
+                        <th>Description</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="showData">
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
