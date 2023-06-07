@@ -10,6 +10,6 @@
   <li> <a href="https://youtu.be/fFOqdmFy5dM">التطبيق العملي الثاني </a></li>
   <li> <a href="https://youtu.be/esNRdas_iA8">التطبيق العملي الثالث </a></li>
   <li> <a href="https://youtu.be/vpRz0iiCLXc">التطبيق العملي الرابع</a></li>
-  <li> <a href="">التطبيق العملي الخامس</a></li>
+  <li> <a href="https://youtu.be/vgs2vieyPQ4">التطبيق العملي الخامس</a></li>
 </ul>
 
