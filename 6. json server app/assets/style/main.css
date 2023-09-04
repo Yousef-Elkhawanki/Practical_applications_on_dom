@@ -1,0 +1,50 @@
+body {
+    background: #ececec;
+}
+
+.product {
+    border: .01rem solid;
+
+}
+.product:hover .product_serive {
+    bottom: 1rem;
+}
+.product_img {
+    overflow: hidden;
+}
+.product_img span {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    background: red;
+    padding: .5rem ;
+    border-radius: 1rem;
+    color: #fff;
+}
+.product_serive {
+    bottom: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: .4rem 1.5rem;
+    transition: .4s;
+}
+
+.product_serive i {
+    cursor: pointer;
+    transition: .4s;
+}
+.product_serive i:hover {
+    color: #9A3B3B;
+}
+
+.close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.close:hover {
+    color: #9A3B3B;
+}

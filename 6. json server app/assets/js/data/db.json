@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "product_name": "Laptop",
+            "price": 3000,
+            "onSale": true,
+            "count": 10,
+            "product_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 2,
+            "product_name": "Tablet",
+            "price": 30000,
+            "onSale": false,
+            "count": 5,
+            "product_url": "https://images.unsplash.com/photo-1542751110-97427bbecf20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFibGV0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 3,
+            "product_name": "Mobile",
+            "price": 30000,
+            "onSale": false,
+            "count": 30,
+            "product_url": "https://images.unsplash.com/photo-1567581935884-3349723552ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW9iaWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 4,
+            "product_name": "Mobile",
+            "price": 42000,
+            "onSale": true,
+            "count": 12,
+            "product_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 5,
+            "product_name": "Camera",
+            "price": 50000,
+            "onSale": true,
+            "count": 0,
+            "product_url": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FtZXJhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        }
+    ]
+}
