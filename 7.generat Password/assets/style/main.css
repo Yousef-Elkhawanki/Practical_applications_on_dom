@@ -1,0 +1,76 @@
+:root {
+    --bg:#176B87;
+    --main:#053B50;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.generate__password {
+    width: 500px;
+}
+.generate__password  h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.generate__password  i {
+    color: var(--main);
+}
+.generate__password input {
+    border: .1rem solid var( --main);
+    background: #fff;
+    padding: .6rem 1.5rem;
+    width: 100%;
+    border-radius: .4rem;
+}
+.generate__password input:focus {
+    outline: 0;
+    border: .1rem solid var( --main);
+}
+.random_input {
+    width: 100%;
+    position: relative;
+}
+.random_input i {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.generate__btn {
+    
+    margin-top: 1rem;
+}
+.generate__btn button {
+    background: var(--main);
+    border: 0;
+    padding: .4rem 1rem;
+    color: #fff;
+}
+.generate__btn i {
+    color: #fff;
+
+}
+
+.clipboard {
+    background:#213555;
+    color: #fff;
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: .5rem;
+    text-align: center;
+    border-radius: .5rem;
+    transition: 1s;
+}
