@@ -1,0 +1,84 @@
+body {
+    background: #1B2430;
+    min-height: 100vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+.checkout {
+    min-height: 50vh;
+    background: #fff;
+    width: 50%;
+    border-radius: .3rem;
+}
+.progress_container {
+    height: 250px;
+}
+.progress_group {
+    width: 100%;
+    background: #ececec;
+    margin-top: 3rem;
+    height: .1rem;
+    display: flex;
+    position: relative;
+}
+.progress{
+    height: 100%;
+    transition: 1s;
+}
+.progress:nth-of-type(1) {
+    width: 0;
+    background: #6499E9;
+}
+.progress:nth-of-type(2) {
+    width: 0;
+    background: #6499E9;
+}
+.progress:nth-of-type(3) {
+    width: 0;
+    background: #6499E9;
+}
+
+.progress:nth-of-type(1)::after {
+    content: "1";
+    width: 2rem;
+    height: 2rem;
+    background: #ececec;
+    border-radius: 50%;
+    position: absolute;
+    transition: 1s .5s;
+    border: .1rem solid #ececec;
+    top: 50%;
+    left: calc(100% / 3);
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.progress:nth-of-type(2)::after {
+    content: "2";
+    width: 2rem;
+    height: 2rem;
+    background: #ececec;
+    border-radius: 50%;
+    position: absolute;
+    transition: 1s;
+    border: .1rem solid #ececec;
+    top: 50%;
+    left: calc((100% / 3) * 2) ;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
