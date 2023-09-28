@@ -13,5 +13,7 @@
   <li> <a href="https://youtu.be/vpRz0iiCLXc">التطبيق العملي الرابع</a></li>
   <li> <a href="https://youtu.be/vgs2vieyPQ4">التطبيق العملي الخامس</a></li>
   <li> <a href="https://www.youtube.com/watch?v=lmV7_qGNQU0">التطبيق العملي السادس</a></li>
-  <li> <a href="">التطبيق العملي السابع</a></li>
+  <li> <a href="https://www.youtube.com/watch?v=y3SrGjjq5-4">التطبيق العملي السابع</a></li>
+  <li> <a href="https://youtu.be/NT_PU6vj7_4?si=gx_siahmBRTTMq4X">التطبيق العملي الثامن</a></li>
+  <li> <a href="">التطبيق العملي التاسع</a></li>
 </ul>
